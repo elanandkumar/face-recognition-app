@@ -113,7 +113,7 @@ class App extends Component {
           this.calculateFaceLocation(response);
         })
         // eslint-disable-next-line
-        .catch(err => console.error(err)); 
+        .catch(err => console.error(err));
     });
   };
   onRouteChange = route => {
